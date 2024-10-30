@@ -1,9 +1,11 @@
 import "./SideBar.css";
 import { assets } from "../../assets/assets";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { Context } from "../../context/Context";
 
 const SideBar = () => {
   const [extended, setExtended] = useState(false);
+  const {onSet,prevPrompts,setRecentPrompt}=useContext(Context);
 
   return (
     <div className="sidebar">
