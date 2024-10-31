@@ -89,9 +89,9 @@ const Main = () => {
               <img src={assets.send_icon} alt="" onClick={() => onSet()} />
             </div>
           </div>
-          <p className="bottom-info">
+          {/* <p className="bottom-info">
             Suggest beautiful places to see on an upcoming road trip
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
